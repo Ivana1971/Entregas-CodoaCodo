@@ -1,0 +1,39 @@
+
+
+
+
+
+
+
+CREATE TABLE `oradores` (
+  `id_oradores` int NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(20) DEFAULT NULL,
+  `apellido` varchar(20) DEFAULT NULL,
+  `mail` varchar(50) DEFAULT NULL,
+  `tema` varchar(100) DEFAULT NULL,
+  `fecha_alta` date DEFAULT NULL,
+  PRIMARY KEY (`id_oradores`)
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+
+insert into oradores(nombre,apellido,mail,tema,fecha_alta) values					
+('Martin','Kriz','Martin26@gmail.com','Rompiendo Esquemas',curdate());					
+insert into oradores(nombre,apellido,mail,tema,fecha_alta) values					
+('Tomas','Schaerer', 'Tomas126@gmail.com','Fusionando Tradicion',curdate());					
+insert into oradores(nombre,apellido,mail,tema,fecha_alta) values					
+('Gaston','Matos', 'Gaston6@gmail.com','Cocteles Sour con Gin y Whisky',curdate());					
+insert into oradores(nombre,apellido,mail,tema,fecha_alta) values					
+('Federico','Faccin', 'FFa26@gmail.com',' Calculo de Platos teoricos para destilacion',curdate());					
+insert into oradores(nombre,apellido,mail,tema,fecha_alta) values					
+('Mariana','Barrera', 'Maryann1980@gmail.com','Pulku, la sidra del nuevo mundo',curdate());					
+insert into oradores(nombre,apellido,mail,tema,fecha_alta) values					
+('Nestor','Diaz','diaz26@gmail.com','Como Potenciar tu marca',curdate());					
+insert into oradores(nombre,apellido,mail,tema,fecha_alta) values					
+('Carolina','Hoyos','CaroHoyos75@gmail.com','Del arte a la Industria',curdate());					
+insert into oradores(nombre,apellido,mail,tema,fecha_alta) values					
+('Luciano','Palumbo', 'Lucchi33@gmail.com','Fundador de Domador de sombras',curdate());					
+insert into oradores(nombre,apellido,mail,tema,fecha_alta) values					
+('Martin','Iriarte','Martin2000@gmail.com','Comienzos y contratiempos',curdate());					
+insert into oradores(nombre,apellido,mail,tema,fecha_alta) values					
+('Dario','Saveli','SavelliDa18@gmail.com','Curso de destilacion basica',curdate());					
+					
